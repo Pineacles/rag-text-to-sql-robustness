@@ -1,0 +1,27 @@
+# BAA main model: clean Qwen3.8-27B, created 2026-10-07
+# Weights: Unsloth Qwen3.8-27B-GGUF UD-Q3_K_XL, 13,441,059,904 bytes
+# sha256 00cf92e666c6af6566996c38c89a44ccdb6449ea25ef0f112a452c853b2a71e2
+# Differences from the hf.co tag: no vision projector, no injected system text.
+# IMPORTANT: Ollama ignores this TEMPLATE for thinking; it renders this model family itself.
+# Thinking is only switched off reliably with "think": false in EVERY API request (tested 2026-10-07:
+# without it there were 140 tokens including thinking, with it 28 tokens of pure SQL).
+# Point FROM at your local copy of the GGUF file (sha256 above), then: ollama create baa-qwen3.8-27b -f <this file>
+FROM ./Qwen3.8-27B-UD-Q3_K_XL.gguf
+TEMPLATE """{{- range $i, $m := .Messages }}
+{{- if eq $m.Role "system" }}<|im_start|>system
+{{ $m.Content }}<|im_end|>
+{{ else if eq $m.Role "user" }}<|im_start|>user
+{{ $m.Content }}<|im_end|>
+{{ else if eq $m.Role "assistant" }}<|im_start|>assistant
+{{ $m.Content }}<|im_end|>
+{{ end }}
+{{- end }}<|im_start|>assistant
+<think>
+
+</think>
+
+"""
+PARAMETER temperature 0
+PARAMETER seed 42
+PARAMETER stop <|im_start|>
+PARAMETER stop <|im_end|>

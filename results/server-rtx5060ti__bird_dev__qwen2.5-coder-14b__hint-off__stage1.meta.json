@@ -1,0 +1,36 @@
+{
+  "ollama_version": "0.40.6",
+  "model_details": {
+    "digest": "9ec8897f747e246e970bc5cfdda85d22f1123dc2e3d34978a010a75968716849",
+    "quantization_label": "Q4_K_M",
+    "parameter_size": "14.8B"
+  },
+  "experiment": {
+    "model": "qwen2.5-coder:14b",
+    "use_evidence": false,
+    "dataset": "bird_dev",
+    "stage": 1,
+    "contamination": 0.0,
+    "contamination_seed": null
+  },
+  "name": "server-rtx5060ti__bird_dev__qwen2.5-coder-14b__hint-off__stage1",
+  "machine": "server-rtx5060ti",
+  "hardware": "NVIDIA RTX 5060 Ti 16 GB, Intel i7-8700K, 48 GB RAM, Linux (openSUSE)",
+  "weights": "Ollama library qwen2.5-coder:14b (Q4_K_M), digest 9ec8897f747e",
+  "generation_options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 1024
+  },
+  "embedding_model": null,
+  "n_total": 1534,
+  "n_done": 1534,
+  "finished": true,
+  "updated": "2026-11-03T10:49:20",
+  "started": "2026-11-03T09:30:39",
+  "gpu": {
+    "vram_share": 1.0,
+    "context": 8192
+  }
+}

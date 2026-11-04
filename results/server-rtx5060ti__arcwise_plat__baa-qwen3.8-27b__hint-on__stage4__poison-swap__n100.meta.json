@@ -1,0 +1,38 @@
+{
+  "ollama_version": "0.40.6",
+  "model_details": {
+    "digest": "68b2e978a9b7b55821881206a10d2877fef915e173503f2b46bb52f876f071e7",
+    "quantization_label": "Q4_K_S",
+    "parameter_size": "27.3B"
+  },
+  "experiment": {
+    "model": "baa-qwen3.8-27b",
+    "use_evidence": true,
+    "dataset": "arcwise_plat",
+    "stage": 4,
+    "contamination": 0.0,
+    "contamination_seed": null,
+    "attack": "poison-swap",
+    "limit": 100
+  },
+  "name": "server-rtx5060ti__arcwise_plat__baa-qwen3.8-27b__hint-on__stage4__poison-swap__n100",
+  "machine": "server-rtx5060ti",
+  "hardware": "NVIDIA RTX 5060 Ti 16 GB, Intel i7-8700K, 48 GB RAM, Linux (openSUSE)",
+  "weights": "Unsloth Qwen3.8-27B-GGUF UD-Q3_K_XL, sha256 00cf92e6...71e2 (Modelfile in models/)",
+  "generation_options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 1024
+  },
+  "embedding_model": "bge-m3",
+  "n_total": 100,
+  "n_done": 100,
+  "finished": true,
+  "updated": "2026-11-03T14:40:04",
+  "started": "2026-11-03T14:28:58",
+  "gpu": {
+    "vram_share": 1.0,
+    "context": 8192
+  }
+}

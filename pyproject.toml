@@ -1,0 +1,21 @@
+[project]
+name = "rag-text-to-sql-robustness"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["requests", "matplotlib"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+# pycodestyle, pyflakes, naming, bugbear, simplify, complexity, pylint size limits, return/arg hygiene
+select = ["E", "W", "F", "I", "N", "B", "SIM", "C90", "PL", "RET", "ARG", "UP"]
+ignore = ["PLR2004"]  # magic values in comparisons are fine for experiment thresholds
+
+[tool.ruff.lint.mccabe]
+max-complexity = 8
+
+[tool.ruff.lint.pylint]
+max-args = 5
+max-statements = 30
+max-branches = 8

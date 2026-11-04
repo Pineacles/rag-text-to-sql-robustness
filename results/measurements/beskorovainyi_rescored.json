@@ -1,0 +1,40 @@
+{
+  "qwen2.5-coder:7b": {
+    "n": 1534,
+    "ex_published": 39.05,
+    "ex_rescored": 42.7,
+    "gold_sql_identical": 1534,
+    "wrong_for_them_only_because_of_duplicate_rows": 1,
+    "ours_hint_off": {
+      "ex_ours": 28.49,
+      "both_correct": 328,
+      "only_ours": 109,
+      "only_theirs": 327
+    },
+    "ours_hint_on": {
+      "ex_ours": 45.11,
+      "both_correct": 507,
+      "only_ours": 185,
+      "only_theirs": 148
+    }
+  },
+  "qwen2.5-coder:14b": {
+    "n": 1534,
+    "ex_published": 47.39,
+    "ex_rescored": 52.02,
+    "gold_sql_identical": 1534,
+    "wrong_for_them_only_because_of_duplicate_rows": 3,
+    "ours_hint_off": {
+      "ex_ours": 33.12,
+      "both_correct": 440,
+      "only_ours": 68,
+      "only_theirs": 358
+    },
+    "ours_hint_on": {
+      "ex_ours": 54.3,
+      "both_correct": 689,
+      "only_ours": 144,
+      "only_theirs": 109
+    }
+  }
+}

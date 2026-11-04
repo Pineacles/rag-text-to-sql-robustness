@@ -1,0 +1,412 @@
+{
+ "embedding": {
+  "n": 200,
+  "one_per_request_ms_mean": 11.5,
+  "one_per_request_ms_median": 10.0,
+  "batch64_ms_per_question": 7.12,
+  "vram_share": 1.0
+ },
+ "think": [
+  {
+   "question_id": "1471",
+   "mode": "off",
+   "seconds": 2.92,
+   "output_tokens": 67,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1471",
+   "mode": "on",
+   "seconds": 20.74,
+   "output_tokens": 549,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1472",
+   "mode": "off",
+   "seconds": 2.72,
+   "output_tokens": 61,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1472",
+   "mode": "on",
+   "seconds": 229.29,
+   "output_tokens": 6144,
+   "thinking_chars": 0,
+   "done_reason": "length",
+   "result": "sql_error",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1473",
+   "mode": "off",
+   "seconds": 9.75,
+   "output_tokens": 250,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1473",
+   "mode": "on",
+   "seconds": 68.3,
+   "output_tokens": null,
+   "thinking_chars": 0,
+   "done_reason": null,
+   "result": "aborted: prediction aborted, token repeat limit reached",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1476",
+   "mode": "off",
+   "seconds": 8.2,
+   "output_tokens": 193,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1476",
+   "mode": "on",
+   "seconds": 107.75,
+   "output_tokens": 2857,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1479",
+   "mode": "off",
+   "seconds": 8.95,
+   "output_tokens": 228,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1479",
+   "mode": "on",
+   "seconds": 49.75,
+   "output_tokens": 1327,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1480",
+   "mode": "off",
+   "seconds": 3.09,
+   "output_tokens": 68,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1480",
+   "mode": "on",
+   "seconds": 229.83,
+   "output_tokens": 6144,
+   "thinking_chars": 0,
+   "done_reason": "length",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1481",
+   "mode": "off",
+   "seconds": 21.73,
+   "output_tokens": 568,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1481",
+   "mode": "on",
+   "seconds": 229.54,
+   "output_tokens": 6144,
+   "thinking_chars": 0,
+   "done_reason": "length",
+   "result": "sql_error",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1482",
+   "mode": "off",
+   "seconds": 14.07,
+   "output_tokens": 361,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1482",
+   "mode": "on",
+   "seconds": 229.66,
+   "output_tokens": 6144,
+   "thinking_chars": 0,
+   "done_reason": "length",
+   "result": "sql_error",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1483",
+   "mode": "off",
+   "seconds": 2.66,
+   "output_tokens": 51,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1483",
+   "mode": "on",
+   "seconds": 79.05,
+   "output_tokens": 2120,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1484",
+   "mode": "off",
+   "seconds": 5.35,
+   "output_tokens": 129,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1484",
+   "mode": "on",
+   "seconds": 26.3,
+   "output_tokens": 701,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1486",
+   "mode": "off",
+   "seconds": 10.74,
+   "output_tokens": 279,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1486",
+   "mode": "on",
+   "seconds": 229.52,
+   "output_tokens": 6144,
+   "thinking_chars": 0,
+   "done_reason": "length",
+   "result": "sql_error",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1490",
+   "mode": "off",
+   "seconds": 10.67,
+   "output_tokens": 275,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1490",
+   "mode": "on",
+   "seconds": 112.26,
+   "output_tokens": 3009,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1493",
+   "mode": "off",
+   "seconds": 3.14,
+   "output_tokens": 67,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1493",
+   "mode": "on",
+   "seconds": 160.88,
+   "output_tokens": 4319,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1498",
+   "mode": "off",
+   "seconds": 1.58,
+   "output_tokens": 27,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1498",
+   "mode": "on",
+   "seconds": 45.84,
+   "output_tokens": 1222,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1500",
+   "mode": "off",
+   "seconds": 2.86,
+   "output_tokens": 60,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1500",
+   "mode": "on",
+   "seconds": 25.0,
+   "output_tokens": 652,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1501",
+   "mode": "off",
+   "seconds": 2.72,
+   "output_tokens": 55,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1501",
+   "mode": "on",
+   "seconds": 55.27,
+   "output_tokens": 1460,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1505",
+   "mode": "off",
+   "seconds": 2.76,
+   "output_tokens": 57,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1505",
+   "mode": "on",
+   "seconds": 119.69,
+   "output_tokens": 3194,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1506",
+   "mode": "off",
+   "seconds": 2.86,
+   "output_tokens": 56,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1506",
+   "mode": "on",
+   "seconds": 54.02,
+   "output_tokens": 1437,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1507",
+   "mode": "off",
+   "seconds": 2.29,
+   "output_tokens": 44,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "correct",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1507",
+   "mode": "on",
+   "seconds": 17.89,
+   "output_tokens": 466,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "sql_error",
+   "think_tag_in_response": true
+  },
+  {
+   "question_id": "1509",
+   "mode": "off",
+   "seconds": 7.48,
+   "output_tokens": 187,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": false
+  },
+  {
+   "question_id": "1509",
+   "mode": "on",
+   "seconds": 38.75,
+   "output_tokens": 1034,
+   "thinking_chars": 0,
+   "done_reason": "stop",
+   "result": "wrong_result",
+   "think_tag_in_response": true
+  }
+ ],
+ "think_vram_share": 1.0
+}
